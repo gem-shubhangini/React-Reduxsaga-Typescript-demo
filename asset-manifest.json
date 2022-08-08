@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Reduxsaga-Typescript-demo/static/css/main.f7b365fc.css",
+    "main.js": "/React-Reduxsaga-Typescript-demo/static/js/main.578840c1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Reduxsaga-Typescript-demo/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/React-Reduxsaga-Typescript-demo/index.html",
+    "main.f7b365fc.css.map": "/React-Reduxsaga-Typescript-demo/static/css/main.f7b365fc.css.map",
+    "main.578840c1.js.map": "/React-Reduxsaga-Typescript-demo/static/js/main.578840c1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Reduxsaga-Typescript-demo/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7b365fc.css",
+    "static/js/main.578840c1.js"
+  ]
+}
