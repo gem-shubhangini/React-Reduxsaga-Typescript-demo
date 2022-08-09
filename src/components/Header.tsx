@@ -7,7 +7,10 @@ const Header=()=> {
     const result = useSelector((state: IRootState)=>state.cartData);
     console.warn("redux data in header",result)
   return (
-    <div className='header'>
+    <div className='header App-header'>
+      <Link to='/React-Reduxsaga-Typescript-demo' className='link'>
+      <h1 className="logo">E-Comm</h1>
+      </Link>
       <Link to='/React-Reduxsaga-Typescript-demo/cart'>
         <div className='cart-div'>
         <span>{Object.keys(result).length}</span>
