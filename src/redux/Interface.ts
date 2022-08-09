@@ -20,7 +20,9 @@ export interface Product {
 
 export interface Rootdata{
     type?:string;
-    data:Product[];
+    data:Product[]|string[];
+
+    
 }
 export interface Action {
     type?:string

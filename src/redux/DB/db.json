@@ -35,6 +35,42 @@
             "category":"rebook",
             "brand":"Nike",
             "photo":"https://n2.sdlcdn.com/imgs/a/r/l/Reebok-Black-And-Red-Colour-SDL120713259-2-075a7.jpg"
+        },
+        {
+            "id": 5,
+            "name": "530 laptop",
+            "color": "white",
+            "price": 88000,
+            "category": "laptop",
+            "brand": "HP",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPTFJosIJImUd7Fat1KCDFkiDQzTaSpQf_Jg&usqp=CAU"
+        },
+        {
+            "id": 6,
+            "name": "earphone - 10",
+            "color": "green",
+            "price": 800,
+            "category": "earphone",
+            "brand": "mivi",
+            "photo": "https://vlebazaar.in/image/cache/catalog//B07VNL73FF/Mivi-ThunderBeats-Bluetooth-Earphones-Wireless-with-Mic-HD-Sound-Powerful-Bass-B07VNL73FF-1500x1500.jpg"
+        },
+        {
+            "id": 7,
+            "name": "black shirt",
+            "color": "black",
+            "price": 1800,
+            "category": "cloths",
+            "brand": "tommy",
+            "photo": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 8,
+            "name": "green shirt",
+            "color": "green",
+            "price": 1900,
+            "category": "cloths",
+            "brand": "tommy",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcF_gd4xvFYMVts3ClxqXGBM1zI4rLjLvVJ3X1vOo&s"
         }
     ]
 }

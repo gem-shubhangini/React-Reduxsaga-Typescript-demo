@@ -20,13 +20,13 @@ function Cart() {
              <td>Category</td>
           </tr>
           {
-            cartData.map((item:any)=> <tr key={item.id}>
+             Array.isArray(cartData) ?cartData.map((item:any)=> <tr key={item.id}>
               <td>{item.name}</td>
             <td>{item.color}</td>
             <td>{item.price}</td>
             <td>{item.brand}</td>
              <td>{item.category}</td>
-            </tr>)
+            </tr>) : []
           }
         </table>
         <div className='priceDetails'>
