@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import { IRootState } from '../redux/rootReducer';
 function Cart() {
     const cartData = useSelector((state:IRootState)=>state.cartData);
+    let amount= cartData.length && cartData.map((item:any)=>item.price).reduce((prev:any,next:number)=>Number(prev)+Number(next))
+    console.warn("amount",amount)
   return (
     <div className='Cart'>
-      <Link to='/React-Reduxsaga-Typescript-demo'>Product List</Link>
+      <Link to='/React-Reduxsaga-Typescript-demo'> Go to Products Link</Link>
       <h1>Cart Page</h1>
-      <div className='cart-page-container'>
-        <table>
+      <div className='cart-page-conatiner'  >
+        <table className='Table'>
           <tr>
             <td>Name</td>
             <td>Color</td>
@@ -20,7 +22,7 @@ function Cart() {
           {
             cartData.map((item:any)=> <tr key={item.id}>
               <td>{item.name}</td>
-            <td>{item.color}r</td>
+            <td>{item.color}</td>
             <td>{item.price}</td>
             <td>{item.brand}</td>
              <td>{item.category}</td>
@@ -29,10 +31,10 @@ function Cart() {
         </table>
         <div className='priceDetails'>
           <div>
-          <div><span>Amount</span><span>00000</span></div>
-          <div><span>Discount</span><span>00000</span></div>
-          <div><span>Taxes</span><span>000</span></div>
-          <div><span>Total</span><span>00000</span></div>
+          <div className='adjustPrice'><span>Amount</span><span>{amount}</span></div>
+          <div className='adjustPrice'><span>Discount</span><span>{amount/10}</span></div>
+          <div className='adjustPrice'><span>Tax</span><span>10.65</span></div>
+          <div className='adjustPrice'><span>Total</span><span>{amount-(amount/10)+10.65}</span></div>
           </div>
         </div>
       </div>

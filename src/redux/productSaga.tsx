@@ -9,7 +9,7 @@ import {Product} from './Interface'
 function*  getProducts<Product>():Generator<any>{
    // console.warn("call api here")
     
-   let data:any= yield  fetch("http://localhost:3000/product")
+   let data:any= yield  fetch("http://localhost:3500/product")
      data =yield data.json();
     console.warn("result of get product",data)
     yield put({type:SET_PRODUCT_LIST,data})
