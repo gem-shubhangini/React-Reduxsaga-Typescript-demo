@@ -12,6 +12,10 @@ const Header=()=> {
       <h1 className="logo">E-Comm</h1>
       </Link>
       <Link to='/React-Reduxsaga-Typescript-demo/cart'>
+        <div className='search-box'>
+          <input type="text" placeholder="Search Product" className='search'></input>
+
+        </div>
         <div className='cart-div'>
         <span>{Object.keys(result).length}</span>
         <AddShoppingCartIcon className='shop'></AddShoppingCartIcon>

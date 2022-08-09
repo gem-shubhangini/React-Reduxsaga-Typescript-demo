@@ -38,6 +38,7 @@
   bottom: 60px;
   margin-left: 10px;
   margin-bottom: 0;
+  color: black;
 }
 .cart-div{
   float: right;
@@ -48,6 +49,7 @@
 }
 .cart-div .shop{
   font-size: xx-large;
+  color: whitesmoke;
 }
 .cart-div span{
   background-color: #b39ddb;
@@ -64,7 +66,19 @@
 .App-link {
   color: rgb(112, 76, 182);
 }
-
+.search-box{
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+  margin-left: 150px;
+  width: 50%;
+}
+.search-box .search{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #777;
+  padding-left: 10px;
+}
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
