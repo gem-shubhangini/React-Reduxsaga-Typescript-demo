@@ -10,11 +10,12 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <div className='App-header'>
       <Routes>
       <Route path="/React-Reduxsaga-Typescript-demo" element ={<Main></Main>}/>
       <Route path="/React-Reduxsaga-Typescript-demo/cart" element ={<Cart></Cart>}/>
       </Routes>
-      
+      </div>
     </div>
   );
 }
